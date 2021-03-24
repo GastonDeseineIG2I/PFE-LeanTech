@@ -2,6 +2,8 @@ body {
     margin: 0 20vw 0 20vw;
 }
 
+/* title */
+
 .title__div {
     margin: 0 -20px 40px -20px;
     padding: 10px 5px;
@@ -20,6 +22,8 @@ body {
 .title__div > .title_name__div{
     flex: 50%;
 }
+
+/* Content */
 
 .projet__div .projet_attentes__div {
     background-color: #1E376C;
@@ -51,3 +55,35 @@ body {
 .content__div h1{
     font-size: 1.5em;
 }
+
+
+/* footer */
+
+
+.contact__div {
+    padding: 10px 5px;
+    background-color: #B4C2D6;
+
+}
+
+.contact__div div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact__div div > .contact_logo__div{
+    margin-left: 10%;
+    flex: 30%;
+}
+
+.contact__div div > .contact_info__div{
+    flex: 50%;
+}
+
+.contact_info__div ul{
+    font-size: 1.5em;
+    list-style: none;
+    line-height: 3;
+}
+
