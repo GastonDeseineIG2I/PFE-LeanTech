@@ -1,27 +1,30 @@
 /* main */
 
 body {
-    background-color: #FFFFFF;
+    background-color: #D9D9D9;
     font-size: 150%;
+    color: black;
 }
 
 .main {
-    background-color: #FFFFFF;
-    margin: 0 20vw 0 20vw;
+    background-color: #D9D9D9;
+    margin: 0 15vw 0 15vw;
     padding: 0 40px 0 40px;
 }
 
-h2 {
-    text-align: center;
-    text-decoration: underline;
-    margin-bottom: 20px;
+.dark-bg {
+
+}
+
+.light-bg {
+
 }
 
 /* title */
 
 .title__div {
     /*margin: 0 -40px 40px -40px;*/
-    margin: 0 calc(-20vw - 40px) 0 calc(-20vw - 40px);
+    margin: 0 calc(-15vw - 40px) 0 calc(-15vw - 40px);
     /*background-color: #D9D9D9;*/
     border-radius: 0 0 10px 10px;
 
@@ -47,6 +50,12 @@ h2 {
     width: 60vw !important;
 }
 
+.title__div .menu a {
+    font-weight: bold !important;
+}
+
+
+
 .title__div > .title_logo__div{
     margin-left: 10%;
     /*flex: 10%;*/
@@ -59,7 +68,9 @@ h2 {
 }
 
 .title__div .title_name__div h1{
-    color: #00327A;
+    /*color: #00327A;*/
+    color: #6899DE;
+    font-family: 'Lobster', cursive;
     font-size: 4.5em;
     margin-bottom: 0;
 }
@@ -84,20 +95,28 @@ h2 {
 
 .content__div {
     /*margin-top: 150px;*/
-    padding-top: 110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .content__div h1{
     font-size: 1.5em;
 }
 
+.content__div h2, .contact__div h2:first-child {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
 /* Projet */
 
 .projet__div .projet_attentes__div {
-    background-color: #1E376C;
-    color: white;
+    background-color: #6899DE;
+    color: #ffffff;
     box-shadow: 10px 5px 5px grey;
-    padding: 10px;
+    padding: 30px;
     border-radius: 20px;
     margin: 0 10px 0 10px;
 }
@@ -109,7 +128,7 @@ h2 {
 
 .projet__div .projet_attentes__div ul li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #ED8B00; /* Change the color */
+    color: #776871; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
@@ -141,7 +160,7 @@ h2 {
 
 .equipe_icons__div > .equipe_icon > h4 {
     margin-top: 0;
-    color: #14A4EB;
+    color: #6683AD;
 }
 
 .equipe_icon .avatar__img{
@@ -153,7 +172,7 @@ h2 {
 
 .formation__div .formation_rounded__div {
     background-color: #F7F7F7;
-    padding: 20px;
+    padding: 40px;
     border-radius: 30px;
     box-shadow: 10px 5px 5px grey;
 }
@@ -173,12 +192,12 @@ h2 {
 }
 
 .ecole_icon i{
-    color: #002060;
+    color: #6683AD;
     font-size: 3em;
 }
 
 .ecole_icon p{
-    color: #ED8B00;
+    color: black;
     font-weight: bold;
 }
 
@@ -191,9 +210,6 @@ h2 {
     margin: 40px -40px 0 -40px;
 }
 
-.contact__div h2 {
-    margin-left: 35px;
-}
 
 .contact__div div {
     display: flex;
@@ -218,7 +234,7 @@ h2 {
 
 .contact__div h2.slogan__h2 {
     font-size: 1.7em;
-    color: #ED8B00;
+    color: #6683AD;
     text-decoration: none;
     margin: -12px 0 0 24vw;
 }
