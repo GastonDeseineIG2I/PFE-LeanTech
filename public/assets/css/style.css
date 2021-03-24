@@ -2,7 +2,7 @@
 
 body {
     background-color: #FFFFFF;
-    font-size: 120%;
+    font-size: 150%;
 }
 
 .main {
@@ -12,7 +12,9 @@ body {
 }
 
 h2 {
+    text-align: center;
     text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 /* title */
@@ -21,6 +23,7 @@ h2 {
     /*margin: 0 -40px 40px -40px;*/
     margin: 0 calc(-20vw - 40px) 0 calc(-20vw - 40px);
     background-color: #D9D9D9;
+    border-radius: 0 0 10px 10px;
 
     /*height: 100vh;*/
 
@@ -166,7 +169,7 @@ h2 {
 
 .contact__div {
     padding: 10px 5px;
-    background-color: #B4C2D6;
+    /*background-color: #B4C2D6;*/
     margin: 40px -40px 0 -40px;
 }
 
