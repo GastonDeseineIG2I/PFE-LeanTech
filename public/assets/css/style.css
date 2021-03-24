@@ -1,0 +1,53 @@
+body {
+    margin: 0 20vw 0 20vw;
+}
+
+.title__div {
+    margin: 0 -20px 40px -20px;
+    padding: 10px 5px;
+    background-color: #D9D9D9;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title__div > .title_logo__div{
+    margin-left: 10%;
+    flex: 30%;
+}
+
+.title__div > .title_name__div{
+    flex: 50%;
+}
+
+.projet__div .projet_attentes__div {
+    background-color: #1E376C;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 10px 0 10px;
+}
+
+.projet__div .projet_attentes__div ul{
+    list-style: none;
+    column-count: 2;
+}
+
+.projet__div .projet_attentes__div ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #ED8B00; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+.content__div {
+    margin-bottom: 15px;
+}
+
+.content__div h1{
+    font-size: 1.5em;
+}
