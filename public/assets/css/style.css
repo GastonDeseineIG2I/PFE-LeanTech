@@ -2,6 +2,7 @@
 
 body {
     background-color: #525659;
+    font-size: 120%;
 }
 
 .main {
@@ -37,13 +38,13 @@ h2 {
 
 .title__div .title_name__div h1{
     color: #00327A;
-    font-size: 5.5em;
+    font-size: 4.5em;
     margin-bottom: 0;
 }
 
 .title__div .title_name__div h2{
     color: #404040;
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-top: 0;
 }
 
@@ -52,7 +53,7 @@ h2 {
 
 
 .content__div {
-    margin-bottom: 15px;
+    margin-top: 45px;
 }
 
 .content__div h1{
@@ -154,7 +155,7 @@ h2 {
 .contact__div {
     padding: 10px 5px;
     background-color: #B4C2D6;
-    margin: 0 -40px 0 -40px;
+    margin: 40px -40px 0 -40px;
 }
 
 .contact__div h2 {
@@ -183,8 +184,9 @@ h2 {
 }
 
 .contact__div h2.slogan__h2 {
+    font-size: 1.7em;
     color: #ED8B00;
     text-decoration: none;
-    margin: 0;
+    margin: -12px 0 0 24vw;
 }
 
