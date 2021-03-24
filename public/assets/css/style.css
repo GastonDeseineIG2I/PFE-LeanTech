@@ -1,12 +1,23 @@
+/* main */
+
 body {
+    background-color: #525659;
+}
+
+.main {
+    background-color: #FFFFFF;
     margin: 0 20vw 0 20vw;
+    padding: 0 40px 0 40px;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 /* title */
 
 .title__div {
-    margin: 0 -20px 40px -20px;
-    padding: 10px 5px;
+    margin: 0 -40px 40px -40px;
     background-color: #D9D9D9;
 
     display: flex;
@@ -21,9 +32,34 @@ body {
 
 .title__div > .title_name__div{
     flex: 50%;
+    line-height: 0;
+}
+
+.title__div .title_name__div h1{
+    color: #00327A;
+    font-size: 5.5em;
+    margin-bottom: 0;
+}
+
+.title__div .title_name__div h2{
+    color: #404040;
+    font-size: 2.5em;
+    margin-top: 0;
 }
 
 /* Content */
+
+
+
+.content__div {
+    margin-bottom: 15px;
+}
+
+.content__div h1{
+    font-size: 1.5em;
+}
+
+/* Projet */
 
 .projet__div .projet_attentes__div {
     background-color: #1E376C;
@@ -48,14 +84,69 @@ body {
 }
 
 
-.content__div {
-    margin-bottom: 15px;
+/* Objectifs */
+
+.objectif__div img.timeline__img {
+    width: 80%;
+    margin-left: 10%;
 }
 
-.content__div h1{
-    font-size: 1.5em;
+
+/* Equipe */
+
+.equipe_icons__div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
+.equipe_icons__div > .equipe_icon {
+    flex: 25%;
+}
+
+.equipe_icons__div > .equipe_icon > h4 {
+    margin-top: 0;
+    color: #14A4EB;
+}
+
+.equipe_icon .avatar__img{
+    height: 90px;
+}
+
+
+/* Formation */
+
+.formation__div .formation_rounded__div {
+    background-color: #F7F7F7;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+.ecole_icons__div {
+    margin: 40px 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ecole_icons__div > .ecole_icon {
+    flex: 25%;
+}
+
+.ecole_icon i{
+    color: #002060;
+    font-size: 3em;
+}
+
+.ecole_icon p{
+    color: #ED8B00;
+    font-weight: bold;
+}
 
 /* footer */
 
@@ -63,7 +154,11 @@ body {
 .contact__div {
     padding: 10px 5px;
     background-color: #B4C2D6;
+    margin: 0 -40px 0 -40px;
+}
 
+.contact__div h2 {
+    margin-left: 35px;
 }
 
 .contact__div div {
@@ -85,5 +180,11 @@ body {
     font-size: 1.5em;
     list-style: none;
     line-height: 3;
+}
+
+.contact__div h2.slogan__h2 {
+    color: #ED8B00;
+    text-decoration: none;
+    margin: 0;
 }
 
