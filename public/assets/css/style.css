@@ -58,16 +58,26 @@ h3 {
 
 .title__div .menu {
     background-color: white;
+    color: black;
     height: fit-content;
     position: fixed;
     top: 0;
-    right: 20px;
+    margin: 0;
+    /*background: transparent;*/
     width: 60vw !important;
     z-index: 100;
 }
 
+.title__div .menu a:first-of-type, .title__div .menu a:first-of-type:hover {
+    background-image: url("../images/logo+name-nobg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .title__div .menu a {
     font-weight: bold !important;
+    border: none;
 }
 
 
