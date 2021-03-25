@@ -268,11 +268,32 @@ h3 {
     }
 
     .title__div {
-        height: auto;
+        height: 70vh;
         padding-top: 30px;
+    }
+
+    .menu {
+        display: none !important;
+    }
+
+    .equipe_icon {
+        margin: 15px !important;
+        height: auto !important;
+        flex: 100% !important;
     }
 
     .projet__div .projet_attentes__div ul{
         column-count: 1;
+    }
+
+    .ecole_icons__div{
+        line-height: normal;
+    }
+
+
+    .contact_info__div{
+        text-align: center;
+        margin-left: 15vw;
+        font-size: 0.7em;
     }
 }
