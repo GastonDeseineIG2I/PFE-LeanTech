@@ -160,7 +160,7 @@ h3 {
     box-shadow: 10px 5px 5px grey;
     padding: 30px;
     border-radius: 20px;
-    margin: 0 10px 0 10px;
+    margin: 6vh 10px 0 10px;
 }
 
 .projet__div .projet_attentes__div ul{
@@ -175,7 +175,7 @@ h3 {
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    /*margin-left: -1em; !* Also needed for space (tweak if needed) *!*/
 }
 
 
@@ -184,6 +184,7 @@ h3 {
 .objectif__div img.timeline__img {
     width: 80%;
     margin-left: 10%;
+    margin-top: 5vh;
 }
 
 
@@ -236,7 +237,7 @@ h3 {
 
 
 .ecole_icons__div {
-    margin: 60px 0 60px 0;
+    margin: 80px 0 100px 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -245,9 +246,10 @@ h3 {
     place-items: baseline;
 }
 
-.formation__div img.centale__img {
+.formation__div img.centrale__img {
     position: absolute;
     right: 35px;
+    width: 200px;
     top: 210px;
 }
 
@@ -310,12 +312,12 @@ h3 {
 }
 
 .contact_info__div ul li i{
-    font-size: 1.5em;
+    font-size: 2em;
     color: #ED8B00;
 }
 
-img.centale_contact__img {
-    width: 10vw;
+img.centrale_contact__img {
+    width: 15vw;
 }
 
 .contact_info__div h5 {
@@ -405,6 +407,10 @@ h2.slogan__h2 {
     .title__div {
         height: fit-content;
         padding-top: 0;
+    }
+
+    .centrale__img {
+        width: auto !important;
     }
 
     .contact_info__div ul li {
