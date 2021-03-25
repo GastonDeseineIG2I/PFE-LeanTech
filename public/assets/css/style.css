@@ -28,6 +28,12 @@ h3 {
     font-size: 1.5em;
 }
 
+.content__div p , .objectif__div li{
+    color: #666;
+    line-height: 1.8;
+    text-align: justify;
+}
+
 /* title */
 
 .title__div {
@@ -77,7 +83,7 @@ h3 {
 
 .title__div .title_name__div h1{
     /*color: #00327A;*/
-    color: #6899DE;
+    color: #137BDA;
     font-family: 'Lobster', cursive;
     font-size: 4.5em;
     margin-bottom: 0;
@@ -122,7 +128,7 @@ h3 {
 /* Projet */
 
 .projet__div .projet_attentes__div {
-    background-color: #6899DE;
+    background-color: #137BDA;
     color: #ffffff;
     box-shadow: 10px 5px 5px grey;
     padding: 30px;
@@ -176,13 +182,14 @@ h3 {
 
 .equipe_icons__div > .equipe_icon > h4 {
     margin-top: 0;
-    color: #6683AD;
+    color: #137BDA;
     font-size: 1em;
 }
 
 .equipe_icons__div > .equipe_icon > p {
     color: #222222;
     font-size: 0.8em;
+    text-align: center;
 }
 
 .equipe_icon .avatar__img{
@@ -214,13 +221,15 @@ h3 {
 }
 
 .ecole_icon i{
-    color: #6683AD;
+    color: #137BDA;
     font-size: 3em;
 }
 
 .ecole_icon p{
     color: black;
     font-weight: bold;
+    text-align: center;
+
 }
 
 /* footer */
@@ -257,9 +266,10 @@ h3 {
 
 .contact__div h2.slogan__h2 {
     font-size: 1.7em;
-    color: #6683AD;
+    color: #137BDA;
     text-decoration: none;
     margin: -12px 0 0 37vw;
+    font-family: 'Lobster', cursive;
 }
 
 @media screen and (max-width: 1100px) {
