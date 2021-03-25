@@ -239,6 +239,12 @@ h3 {
     text-align: center;
 }
 
+.formation__div img.centale__img {
+    position: absolute;
+    right: 35px;
+    top: 210px;
+}
+
 .ecole_icons__div > .ecole_icon {
     flex: 25%;
 }
@@ -305,8 +311,16 @@ h3 {
         padding-top: 30px;
     }
 
+    .title__div .title_name__div h1 {
+        font-size: 3.5em;
+    }
+
     .menu {
         display: none !important;
+    }
+
+    .content__div{
+        margin: 0 20vw 0 20vw;
     }
 
     .equipe_icon {
@@ -323,6 +337,14 @@ h3 {
         line-height: normal;
     }
 
+    .objectif__div img.timeline__img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contact_logo__div img {
+        display: none;
+    }
 
     .contact_info__div{
         text-align: center;
