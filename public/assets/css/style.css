@@ -56,23 +56,22 @@ h3 {
     align-items: center;
 }
 
-.title__div .menu {
+.title__div .ui.menu {
     background-color: white;
     color: black;
-    height: fit-content;
+    height: 50px;
     position: fixed;
     top: 0;
     margin: 0;
-    /*background: transparent;*/
-    width: 60vw !important;
     z-index: 100;
 }
 
-.title__div .menu a:first-of-type, .title__div .menu a:first-of-type:hover {
+.title__div .ui.menu .menu__logo, .title__div .ui.menu .menu__logo:hover {
     background-image: url("../images/logo+name-nobg.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    width: 20vw;
 }
 
 .title__div .menu a {
@@ -301,7 +300,7 @@ h3 {
     font-family: 'Vollkorn', serif;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 700px) {
     .main {
         margin: 0 0 0 0;
     }
@@ -351,4 +350,9 @@ h3 {
         margin-left: 15vw;
         font-size: 0.7em;
     }
+}
+
+
+@media screen and (max-width: 800px) {
+
 }
