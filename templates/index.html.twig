@@ -19,17 +19,17 @@
                 </div>
             </div>
             <div class="ui six item stackable menu">
-                <a class="item" href="#Accueil">Accueil</a>
-                <a class="item" href="#Projet">Le projet</a>
-                <a class="item" href="#Objectif">L'objectif</a>
-                <a class="item" href="#Equipe">L'equipe</a>
-                <a class="item" href="#Formation">La formation</a>
-                <a class="item" href="#Contact">Nous contacter</a>
+                <a class="item" onclick="scrollToId('#Accueil')">Accueil</a>
+                <a class="item" onclick="scrollToId('#Projet')">Le projet</a>
+                <a class="item" onclick="scrollToId('#Objectif')">L'objectif</a>
+                <a class="item" onclick="scrollToId('#Equipe')">L'equipe</a>
+                <a class="item" onclick="scrollToId('#Formation')">La formation</a>
+                <a class="item" onclick="scrollToId('#Contact')">Nous contacter</a>
             </div>
         </div>
 
         <div class="dark-bg">
-            <div id="Projet" class="content__div projet__div">
+            <div id="Projet" class="content__div projet__div" data-aos="fade-in">
                 <h2>Le Projet</h2>
                 <p>LeanTech est une equipe composee de trois élèves ingénieurs de 4eme annee, en specialite système
                     de l’information a l’Institut de Genie Informatique et Industriel (IG2I), Centrale Lille.
@@ -51,7 +51,7 @@
         </div>
 
         <div class="light-bg">
-            <div id="Objectif" class="content__div objectif__div">
+            <div id="Objectif" class="content__div objectif__div" data-aos="fade-in">
                 <h2>Nos Objectifs</h2>
                 <ul>
                     <li>Apporter nos connaissances pluridisciplinaires et notre expertise</li>
@@ -64,7 +64,7 @@
         </div>
 
         <div class="dark-bg">
-            <div id="Equipe" class="content__div equipe__div">
+            <div id="Equipe" class="content__div equipe__div" data-aos="fade-in">
                 <h2>L’équipe</h2>
                 <div class="equipe_icons__div">
                     <div class="equipe_icon">
@@ -91,7 +91,7 @@
 
 
         <div class="light-bg">
-            <div id="Formation" class="content__div formation__div">
+            <div id="Formation" class="content__div formation__div" data-aos="fade-in">
                 <h2>Notre Formation</h2>
                 <div class="formation_rounded__div">
                     <div>
@@ -134,7 +134,7 @@
         </div>
 
         <div class="dark-bg">
-            <div id="Contact" class="contact__div">
+            <div id="Contact" class="contact__div" data-aos="fade-in">
                 <h2>Nous Contacter</h2>
                 <div>
                     <div class="contact_logo__div">
@@ -153,4 +153,7 @@
         </div>
     </div>
 
+    <script>
+
+    </script>
 {% endblock %}

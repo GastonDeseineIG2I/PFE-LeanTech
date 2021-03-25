@@ -11,11 +11,13 @@
 {#            {{ encore_entry_link_tags('app') }}#}
             <link rel="stylesheet" type="text/css" href="{{ asset('assets/libraries/semantic-ui/semantic.min.css') }}">
             <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
+            <link href="{{ asset('assets/libraries/aos-master/dist/aos.css') }}" rel="stylesheet">
         {% endblock %}
 
         {% block javascripts %}
 {#            {{ encore_entry_script_tags('app') }}#}
             <script src="{{ asset('assets/libraries/jquery.min.js') }}"></script>
+            <script src="{{ asset('assets/libraries/aos-master/dist/aos.js') }}"></script>
             <script src="{{ asset('assets/libraries/semantic-ui/semantic.min.js') }}"></script>
             <script src="{{ asset('assets/scripts/script.js') }}"></script>
         {% endblock %}

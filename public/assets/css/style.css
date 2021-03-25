@@ -32,6 +32,7 @@ h3 {
     color: #666;
     line-height: 1.8;
     text-align: justify;
+    font-family: 'Lato', sans-serif;
 }
 
 /* title */
@@ -62,6 +63,7 @@ h3 {
     top: 0;
     right: 20px;
     width: 60vw !important;
+    z-index: 100;
 }
 
 .title__div .menu a {
@@ -131,7 +133,7 @@ h3 {
 
 .content__div h2, .contact__div h2:first-child {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-size: 2em;
     text-transform: uppercase;
 }
