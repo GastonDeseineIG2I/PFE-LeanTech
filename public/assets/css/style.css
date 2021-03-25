@@ -83,7 +83,7 @@ h3 {
 
 .title__div .title_name__div h1{
     /*color: #00327A;*/
-    color: #137BDA;
+    color: #00337B;
     font-family: 'Lobster', cursive;
     font-size: 4.5em;
     margin-bottom: 0;
@@ -102,6 +102,17 @@ h3 {
 .title__div button {
     width: 100%;
 }
+
+.title__div .projet__button {
+    background: #ED8B00;
+    color: white
+}
+
+.title__div .plaquette__button {
+    background: #00337B;
+    color: white
+}
+
 
 /* Content */
 
@@ -128,7 +139,7 @@ h3 {
 /* Projet */
 
 .projet__div .projet_attentes__div {
-    background-color: #137BDA;
+    background-color: #00337B;
     color: #ffffff;
     box-shadow: 10px 5px 5px grey;
     padding: 30px;
@@ -144,7 +155,7 @@ h3 {
 
 .projet__div .projet_attentes__div ul li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #776871; /* Change the color */
+    color: #EB8A00; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
@@ -182,7 +193,7 @@ h3 {
 
 .equipe_icons__div > .equipe_icon > h4 {
     margin-top: 0;
-    color: #137BDA;
+    color: #00337B;
     font-size: 1em;
 }
 
@@ -221,7 +232,7 @@ h3 {
 }
 
 .ecole_icon i{
-    color: #137BDA;
+    color: #00337B;
     font-size: 3em;
 }
 
@@ -266,7 +277,7 @@ h3 {
 
 .contact__div h2.slogan__h2 {
     font-size: 1.7em;
-    color: #137BDA;
+    color: #00337B;
     text-decoration: none;
     margin: -12px 0 0 37vw;
     font-family: 'Lobster', cursive;
