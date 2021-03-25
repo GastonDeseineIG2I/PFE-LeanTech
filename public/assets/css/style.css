@@ -190,6 +190,7 @@ h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    place-items: baseline;
 }
 
 .equipe_icons__div > .equipe_icon {
@@ -236,6 +237,7 @@ h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    place-items: baseline;
 }
 
 .formation__div img.centale__img {
@@ -271,7 +273,7 @@ h3 {
 }
 
 
-.contact__div div {
+/*.contact__div div {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -284,19 +286,51 @@ h3 {
 
 .contact__div div > .contact_info__div{
     flex: 50%;
-}
+}*/
 
 .contact_info__div ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    place-items: baseline;
+
     font-size: 1.5em;
     list-style: none;
     line-height: 3;
 }
 
-.contact__div h2.slogan__h2 {
+.contact_info__div ul li{
+    flex: 33;
+    text-align: center;
+}
+
+.contact_info__div ul li i{
+    font-size: 1.5em;
+    color: #ED8B00;
+}
+
+img.centale_contact__img {
+    width: 10vw;
+}
+
+.contact_info__div h5 {
+    font-size: 0.6em;
+    color: #01347C;
+}
+
+.contact_info__div p {
+    font-size: 0.7em;
+    /*line-height: 0.6;*/
+}
+
+
+
+h2.slogan__h2 {
+    padding: 30px;
     font-size: 1.7em;
-    color: #00337B;
+    color: #c7c7c7;
     text-decoration: none;
-    margin: -12px 0 0 37vw;
+    text-align: center;
     font-family: 'Vollkorn', serif;
 }
 
@@ -366,5 +400,11 @@ h3 {
     .title__div {
         height: fit-content;
         padding-top: 0;
+    }
+
+    .contact_info__div ul li {
+        flex: none;
+        text-align: center;
+        width: 100%;
     }
 }
