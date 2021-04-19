@@ -76,7 +76,17 @@ h3 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 20vw;
+    width: 10vw;
+    margin-left: 1vw;
+}
+
+.title__div .ui.menu .menu__centrale, .title__div .ui.menu .menu__centrale:hover {
+    background-image: url("../images/centrale-nobg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5vw;
+    margin-left: 2vw;
 }
 
 .title__div .menu a {
