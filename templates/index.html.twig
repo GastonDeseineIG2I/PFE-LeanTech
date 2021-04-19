@@ -15,7 +15,7 @@
                 <hr>
                 <div class="actions button">
                     <button onclick="scrollToId('#Projet')" class="ui projet__button button">Notre projet</button>
-                    <button class="ui plaquette__button button">Notre maquette</button>
+                    <button class="ui plaquette__button button" onclick="window.open('{{ asset('assets/LeanTech.pdf') }}','_blank')">Notre maquette</button>
                 </div>
             </div>
             <div class="ui fluid borderless menu">
@@ -35,22 +35,32 @@
         <div class="dark-bg">
             <div id="Projet" class="content__div projet__div" data-aos="fade-in">
                 <h2>Le Projet</h2>
-                <p><b> LeanTech</b> est une equipe composee de  <b> trois élèves ingénieurs </b> de 4eme annee,
-                    en specialite <b>  système de l’information  </b> à au seins de l’ecole d’ingenieur <b>  Centrale Lille </b>,
-                    genie informatique et industriel. <b> Le Projet de Fin d’Etude </b> comporte une etude complete de vos besoins,
-                    ainsi que de la specification et la realisation d’un prototype.
-                    Cette etude  <b> de 230 heures par élèves soit 690 heures  </b> fera l’objet d’un financement par notre entreprise partenaire. </p>
+
+                <p>
+                    <b>LeanTech</b> est une équipe composée de <b>trois élèves ingénieurs</b> de 4eme année, en spécialite <b>système
+                    de l’information</b> au sein de l’école d’ingénieurs <b>IG2I de Centrale Lille Institut</b>.
+                    Désireux de mettre nos compétences au service de la supply chain, nous avons a cœur de réaliser un
+                    projet qui répond à vos besoins. <b>Le projet de fin d’études</b> comporte :
+                </p>
                 <div class="projet_attentes__div">
                     <ul>
-                        <li>Un cahier des charges détaillé</li>
+                        <li>Un dossier de cadrage</li>
                         <li>Un dossier de spécifications fonctionnelles</li>
-                        <li>Une méthodologie de conduite de projet </li>
+                        <li>Une méthodologie de conduite de projet</li>
+                        <li>Une réalisation</li>
                         <li>Un plan qualité</li>
-                        <li>Diagnostic, analyse, conseils</li>
-                        <li>Une rédaction des spécifications</li>
+                        <li>Une conception technique</li>
+                        <li>Une démarche scientifique</li>
                         <li>Une étude du marché</li>
                     </ul>
                 </div>
+                <br>
+                <br>
+                <p>
+                    Cette étude de <b>230 heures par élève soit <u>690 heures</u> au total et 50 heures d’encadrement par les
+                    enseignants de Centrale Lille Institut</b> fera l’objet d’un financement par notre entreprise
+                    partenaire .
+                </p>
             </div>
         </div>
 
@@ -58,9 +68,11 @@
             <div id="Objectif" class="content__div objectif__div" data-aos="fade-in">
                 <h2>Nos Objectifs</h2>
                 <ul>
-                    <li>Apporter nos connaissances  <b> pluridisciplinaires </b>  et notre <b> expertise </b></li>
-                    <li>Proposer une solution <b>  durable et fonctionnelle dans le temps</b> </li>
-                    <li>Avoir l’opportunite de collaborer avec une entreprise autour de la <b>  Supply chain Management et logistique </b></li>
+                    <li>Apporter nos connaissances <b>pluridisciplinaires</b> et notre <b>expertise</b>, </li>
+                    <li>Proposer une solution <b>durable et fonctionnelle dans le temps,</b> </li>
+                    <li>Avoir l’opportunite de collaborer avec une entreprise autour de la <b>gestion de la chaîne
+                        logistique,</b> </li>
+                    <li><b>Optimisation et analyse</b> des diffe rents flux, du transport, du stockage et des processus.</li>
                 </ul>
 
                 <img class="timeline__img" src="{{ asset('assets/images/timeline-nobg.png') }} " alt="timeline">
@@ -72,21 +84,29 @@
                 <h2>L’équipe</h2>
                 <div class="equipe_icons__div">
                     <div class="equipe_icon">
-                        <img class="avatar__img" src="{{ asset('assets/images/avatar-nobg.png') }} " alt="avatar">
+                        <img class="avatar__img" src="{{ asset('assets/images/baptiste.png') }} " alt="avatar">
                         <h4>Baptiste Pautrat</h4>
                         <p>Chef de Projet & Ingenieur technique</p>
+                        <p>Conduit des projets digitaux et
+                            de gestion de flux.</p>
                         <p>En alternance chez BBGR</p>
                     </div>
                     <div class="equipe_icon">
-                        <img class="avatar__img" src="{{ asset('assets/images/avatar-nobg.png') }} " alt="avatar">
+                        <img class="avatar__img" src="{{ asset('assets/images/victorine.png') }} " alt="avatar">
                         <h4>Victorine Doral</h4>
-                        <p>Responsable Qualite & Ingenieur technique</p>
+                        <p>Responsable Qualité &
+                            Ingénieur technique</p>
+                        <p>Développe et optimise des
+                            logiciels en IA.</p>
                         <p>En alternance chez Jouve</p>
                     </div>
                     <div class="equipe_icon">
-                        <img class="avatar__img" src="{{ asset('assets/images/avatar-nobg.png') }} " alt="avatar">
+                        <img class="avatar__img" src="{{ asset('assets/images/gaston.png') }} " alt="avatar">
                         <h4>Gaston Deseine</h4>
-                        <p>Responsable Fonctionnel & Ingenieur technique</p>
+                        <p>Responsable Fonctionnel
+                            & Ingénieur technique</p>
+                        <p>Conduit des projets industriels
+                            et optimise des processus</p>
                         <p>En alternance chez Renault</p>
                     </div>
                 </div>
@@ -101,13 +121,12 @@
                     <div>
                         <img class="centrale__img" src="{{ asset('assets/images/centrale-nobg.png') }} " alt="centrale">
                         <h3>L'école</h3>
-                        <p>Centrale Lille IG2I propose une formation en apprentissage en trois ans.
-                            Cette formation nous oriente vers <b> l’informatique d’entreprise et le génie logiciel</b>.
-                            Alternant entre entreprise et ecole tout au long de ce cursus,
-                            chaque membre de l’equipe a  <b> des compétences variées et essentielles </b>,
-                            comme  <b> la gestion de projet </b>, un travail sur <b> les ERPs ,
-                                d’une architecture réseau  </b> ou  <b> d’une application professionnelle </b>.
-                            Ainsi que l’enseignement de <b>  matières industrielles </b> tel que l’automatique, la robotique ...</p>
+                        <p>L’école d’ingénieur IG2I de Centrale Lille Institut propose une formation en apprentissage en
+                            <b>trois ans</b>. Cette formation nous oriente vers <b>l’informatique d’entreprise et le génie logiciel.</b>
+                            Alternant entre entreprise et école tout au long de ce cursus, chaque membre de l’équipe
+                            posséde <b>des compétences essentielles et variées</b>, comme par exemple les ERP, la gestion de
+                            projet, la chaîne logistique, le management et la mode lisation d’entreprise. Nous avons
+                            également des <b>connaissances industrielles</b> telles que l’automatique ou la robotique.</p>
                         <div class="ecole_icons__div">
                             <div class="ecole_icon">
                                 <i class="icon globe"></i>
@@ -130,11 +149,10 @@
 
                     <div>
                         <h3>L'alternance</h3>
-                        <p>En plus <b> d’enrichir nos compétences </b>, l'alternance nous octroie de  <b> nouvelles
-                                qualifications propres </b> au secteur du travail. Ces nouvelles techniques,
-                            accompagnees d'une maturite liee aux responsabilites au sein des entreprises,
-                            font des alternants,
-                            <b>des acteurs à la fois théoriques et pratiques, promptes à mener à bien les projets !</b> </p>
+                        <p>En plus d’<b>enrichir nos compétences</b>, l'alternance nous octroie de <b>nouvelles qualifications
+                            propres</b> au secteur du travail. Ces nouvelles techniques, accompagnées d'une maturite liée aux
+                            responsabilités au sein des entreprises, font des alternants des <b>acteurs à la fois théoriques et
+                            pratiques engagés à mener à bien les projets.</b></p>
                     </div>
                 </div>
             </div>
@@ -152,6 +170,7 @@
                         <li>
                             <i class="icon mobile"></i>
                             <h5>Téléphone</h5>
+                            <p>Baptiste Pautrat</p>
                             <p> +33 6 14 06 26 94</p>
                         </li>
                         <li>
