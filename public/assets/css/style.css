@@ -220,7 +220,7 @@ h3 {
     flex: 25%;
 }
 
-.equipe_icons__div > .equipe_icon > h4 {
+.equipe_icons__div > .equipe_icon > h4.equipe__name{
     /*margin-top: 0;*/
     color: #00337B;
     font-size: 1em;
@@ -230,6 +230,14 @@ h3 {
     color: #222222;
     font-size: 0.8em;
     text-align: center;
+}
+
+.equipe_icons__div > .equipe_icon > p.equipe__title {
+    font-weight: bold;
+}
+
+.equipe_icons__div > .equipe_icon > p.equipe__poste {
+    font-style: italic;
 }
 
 .equipe_icon .avatar__img{
@@ -311,6 +319,8 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
     place-items: baseline;
+
+    padding: 0;
 
     font-size: 1.5em;
     list-style: none;
