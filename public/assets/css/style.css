@@ -168,7 +168,7 @@ h3 {
     background-color: #00337B;
     color: #ffffff;
     box-shadow: 10px 5px 5px grey;
-    padding: 30px;
+    padding: 20px 0;
     border-radius: 20px;
     margin: 6vh 10px 0 10px;
 }
@@ -279,6 +279,7 @@ h3 {
 .ecole_icon i{
     color: #00337B;
     font-size: 3em;
+    margin-bottom: 20px;
 }
 
 .ecole_icon p{
@@ -431,6 +432,9 @@ h2.slogan__h2 {
     }
 
     .centrale__img {
+        right: 95px !important;
+        top: 236px !important;
+        height: 50px !important;
         width: auto !important;
     }
 
@@ -438,5 +442,28 @@ h2.slogan__h2 {
         flex: none;
         text-align: center;
         width: 100%;
+    }
+
+    .ecole_icons__div{
+        flex-direction: column;
+        place-items: normal;
+    }
+
+    .ecole_icons__div .ecole_icon {
+        margin-bottom: 50px;
+    }
+
+    .centrale_contact__img {
+        width: 35vw !important;
+        margin-top: 50px;
+    }
+
+    .projet_attentes__div{
+        margin: 0 !important;
+        padding: 6px 0 1px 0 !important;
+    }
+
+    .projet_attentes__div li {
+        margin-bottom: 20px;
     }
 }
